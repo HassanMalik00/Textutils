@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.5s ease; /* Smooth transition */
+  margin: 0;
+}
+
+/* Default Light Mode */
+.container {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  color: #333; /* Dark text */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px; /* Padding for the container */
+}
+
+/* Dark Mode Styles */
+.dark .container {
+  background: rgba(45, 62, 80, 0.9); /* Semi-transparent dark background */
+  color: #ecf0f1; /* Light text */
+}
+
+/* Text Area */
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Light border */
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+/* Dark Mode Textarea */
+.dark textarea {
+  background-color: #34495e; /* Dark background for textarea */
+  color: #ecf0f1; /* Light text for textarea */
+  border: 1px solid #7f8c8d; /* Lighter border for contrast */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #607d8b; /* Light mode navbar color */
+  transition: background-color 0.5s ease; /* Smooth transition */
+  padding: 15px; /* Padding for the navbar */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for navbar */
+}
+
+/* Dark Mode Navbar */
+.dark .navbar {
+  background-color: #2c3e50; /* Dark mode navbar color */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition for hover effects */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.dark .btn-primary {
+  background-color: #2980b9; /* Dark mode primary button color */
+}
+
+.dark .btn-primary:hover {
+  background-color: #1a5276; /* Darker shade on hover */
+}
+
+/* Alert Styles */
+.alert {
+  margin: 10px 0;
+  padding: 10px; /* Padding for alerts */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Light Mode Alert Styles */
+.alert-success {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+}
+
+/* Dark Mode Alert Styles */
+.dark .alert-success {
+  background-color: #1e3c72; /* Darker background for alerts */
+  color: #a8e0b9; /* Lighter text for alerts */
+}
+
+
+
+
+
+
+
+.preview {
+  border: 1px solid #ccc; /* Border around the preview area */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding for the preview area */
+  margin-top: 20px; /* Spacing above the preview area */
+  background: rgba(255, 255, 255, 0.9); /* Background color */
+  max-height: 300px; /* Set a max height */
+  overflow-y: auto; /* Add vertical scrollbar */
+  transition: background-color 0.5s ease; /* Smooth transition for dark mode */
+}
+
+/* Dark Mode Preview */
+.dark .preview {
+  background: rgba(45, 62, 80, 0.9); /* Dark background for preview */
+  border: 1px solid #7f8c8d; /* Lighter border for contrast */
+}
+
+/* Preview Content */
+.preview-content {
+  white-space: pre-wrap; /* Preserve white space and line breaks */
+  word-wrap: break-word; /* Break long words onto the next line */
+}
+
+
+
+
+
+
+
+
