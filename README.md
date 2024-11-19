@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Textutils
+TextUtils is a React-based web application that provides various text manipulation utilities, designed to improve productivity and streamline text processing tasks. The app features a clean user interface with a built-in dark mode toggle for better usability.
+>>>>>>> 307a0109b0552a2b443ffe324a68521e38665eeb
